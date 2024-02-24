@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <nav>
+        <div>
+            <a href="#home" class="editor">EDITOR</a>
+            </div>
+        
+        <div class="nav-buttons">
+            <div class="nav-box">
+                <a href="#settings">Settings</a>
+            </div>
+            <div class="nav-box">
+                <a href="#signin">Sign In</a>
+            </div>
+            <div class="nav-box">
+                <a href="#signout">Sign Out</a>
+            </div>
+        </div>
+    </nav>
+    <section>
+        <div class="container">
+            <!-- ****************HTML**************** -->
+          
+            <textarea class="container" name="text" id="" cols="55" rows="20">
+<!--
+<section>
+<div class="button">
+ <button class="btn-in" id="btnin">-</button>
+ <div class="counter-number" id="counter">0</div>
+<button class="btnd-in" id="btndin">+</button>
+</div>
+</section> -->
+         
+   </textarea>
+
+
+         
+                                
+   
+
+                   <!-- ****************CSS**************** -->                  
+
+                
+                    <textarea class="container"name="text" id="" cols="55" rows="20">
+<!-- 
+    .button{
+    width:400px;
+   height: 100px;
+   background-color:pink;
+   border-radius: 20px;
+   align-items: center;
+   text-align: center;
+   margin: 20px;
+   margin-left: 35%;
+   display: flex;
+  }
+   .btn-in{
+  width:50px;
+  height: 30px;
+  align-items: center;
+  text-align: center;
+                            
+   margin:60px;
+  font-size: large;
+                            
+  }
+  .btn-din{
+  width:50px;
+   height: 30px;
+  align-items: center;
+  text-align: center;
+  font-size: large;
+  margin:60px;
+                            
+  }
+  .counter-number{
+  font-size: 100px;
+  color: white;
+   }
+   
+  -->
+                    </textarea>
+          
+           
+                
+                <!-- ****************js**************** -->
+
+ <textarea class="container" name="text" id="" cols="55" rows="20">
+    <!--
+    const counter = document.getElementById("counter");
+    const btnin = document.getElementById("btnin");
+    const btndin = document.getElementById("btndin");
+    
+    // *************function*****************
+    var number = 0;
+    
+    function changeColor(number) {
+        var color = "";
+        if (number < 0) {
+            color = "red";
+        } else if (number > 0) {
+            color = "green";
+        } else {
+            color = "white";
+        }
+        return color;
+    };
+    btndin.addEventListener("click", function () {
+        number--;
+        counter.innerHTML = number;
+        counter.style.color = changeColor(number);
+    });
+    
+    btnin.addEventListener("click", function () {
+        number++;
+        counter.innerHTML = number;
+        counter.style.color = changeColor(number);
+    });
+ -->
+    
+
+ </textarea>
+
+         
+</div>
+
+      
+        
+    </section>
+    <section>
+        <div class="button">
+            <button class="btn-din" id="btndin">-</button>
+            <div class="counter-number" id="counter">0</div>
+            <button class="btn-in" id="btnin">+</button>
+        </div>
+    </section>
+    
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+               
+               
+                
+                
+                
+            
+            
+      
